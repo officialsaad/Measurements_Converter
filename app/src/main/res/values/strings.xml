@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Measurements Converter</string>
+    <string name="back">Back</string>
+    <string name="enter_distance">Enter Distance</string>
+    <string name="calculate">Calculate</string>
+
+    <string name="km_s">KM,s:</string>
+    <string name="miles">Miles:</string>
+
+    <string name="_0">0</string>
+    <string name="mm">mm:</string>
+    <string name="inc">inc:</string>
+    <string name="enter_measurement">Enter Measurement</string>
+    <string-array name="spinneritems">
+        <item>F</item>
+        <item>C</item>
+    </string-array>
+    <string-array name="spinneritem">
+        <item>KM</item>
+        <item>ML</item>
+    </string-array>
+    <string-array name="spinneritemss">
+        <item>inc</item>
+        <item>mm</item>
+    </string-array>
+</resources>

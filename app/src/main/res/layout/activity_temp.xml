@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".temp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:hint="Enter Temerature"
+        android:autofillHints=""
+         />
+
+    <Spinner
+        android:id="@+id/sp11"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="57dp"
+        android:layout_below="@+id/et11"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:entries="@array/spinneritems" />
+
+    <Button
+        android:id="@+id/bt1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tx1"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="calculate" />
+
+
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/sp11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="3dp"
+        android:text="Null"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="268dp"
+        android:text="@string/back" />
+
+</RelativeLayout>

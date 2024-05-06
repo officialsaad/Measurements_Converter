@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inches">
+
+
+    <EditText
+        android:id="@+id/et11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:hint="@string/enter_measurement"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <Spinner
+        android:id="@+id/sp11"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="57dp"
+        android:layout_above="@id/tkm"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:entries="@array/spinneritemss" />
+
+    <Button
+        android:id="@+id/bt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/btn22"
+        android:layout_marginStart="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/km11"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/tkm"
+        android:layout_above="@id/ml22"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="156dp"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ml22"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="84dp"
+        android:layout_toEndOf="@id/tmm"
+        android:layout_above="@id/bt11"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tkm"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@id/tmm"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/inc"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tmm"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@id/bt11"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/mm"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text="@string/back" />
+
+</RelativeLayout>
